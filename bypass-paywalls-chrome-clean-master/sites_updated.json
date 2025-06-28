@@ -1,0 +1,46 @@
+{
+  "Financial Times (not cn subdomain)": {
+    "domain": "ft.com",
+    "useragent_custom": "Mozilla/5.0 (Java) outbrain",
+    "cs_dompurify": 1,
+    "upd_version": "4.1.4.1"
+  },
+  "Nautilus": {
+    "domain": "nautil.us",
+    "allow_cookies": 1,
+    "block_regex": "\\/nautil\\.us\\/wp-content\\/themes\\/.+\\/js\\/js\\.cookie\\.min\\.js",
+    "upd_version": "4.1.4.4"
+  },
+  "New Zealand Herald": {
+    "domain": "nzherald.co.nz",
+    "allow_cookies": 1,
+    "block_regex": "\\.nzherald\\.co\\.nz\\/zephr",
+    "upd_version": "4.1.4.5"
+  },
+  "Telegraaf": {
+    "domain": "telegraaf.nl",
+    "remove_cookies_select_drop": ["mh_pw_se"],
+    "ld_archive_is": "div[data-testid='paywall-position-popover']:not(:empty)|article",
+    "upd_version": "4.1.4.6"
+  },
+  "The New York Times" :{
+    "domain" : "nytimes.com" ,
+    "allow_cookies" : 1 ,
+    "block_regex" : "(\\.nytimes\\.com\\/(meter\\.js|svc\\/onsite-messaging\\/query)|mwcm\\.nyt\\.com\\/.+\\.js|cooking\\.nytimes\\.com\\/api\\/.+\\/access)",
+    "upd_version": "4.1.4.1"
+  },
+  "The San Francisco Standard": {
+    "domain": "sfstandard.com",
+    "remove_cookies_select_drop": ["zephr-session"],
+    "cs_clear_lclstrg": 1,
+    "block_regex": "(\\.|\\/)sfstandard\\.com\\/(zephr|api\\/content\\/decision)\\/",
+    "upd_version": "4.1.4.7"
+  },
+  "The Times UK": {
+    "domain": "thetimes.com",
+    "allow_cookies": 1,
+    "cs_dompurify": 1,
+    "cs_code": "[{\"cond\":\"body.TeaserPage\", \"rm_class\":\"TeaserPage\"}]",
+    "upd_version": "4.1.4.2"
+  }
+}
